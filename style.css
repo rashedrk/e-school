@@ -1,5 +1,8 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding-bottom: 50px;
 }
 header{
@@ -35,19 +38,19 @@ header{
     color: #6C6B6B;
 }
 .home img{
-    width: 500px;
-    height: 300px;
+    width: 100%;
 }
-.button{
+.button-buy{
     background-color: #21B573;
     color: white;
-    border-radius: 33px;
-    width: 157px;
-    padding: 10px 20px;
+    border-radius: 35px;
+    width: 137px;
+    padding: 8px 28px;
     text-decoration: none;
+    border: none;
 }
-.button:hover{
-    background-color: #1afd80;
+.button-buy:hover{
+    background-color: #0aec86;
     color: rgb(10, 10, 10);
 }
 .item img{
@@ -66,4 +69,45 @@ header{
 .item:hover{
     background-color: white;
     box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+.title{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.col .card{
+    border-radius: 18px;
+}
+.card-img-top{
+    border-radius: 11px;
+    padding:10px
+}
+.col .card-footer{
+    background-color: white;
+    border-top: none;
+}
+.card-footer img{
+    width: 18px;
+    height: 20px;
+}
+.card-footer p{
+    color: #585859;
+}
+.testimonial img{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer{
+    background-color: #282531;
+    color: white;
+    padding-top: 40px;
+}
+footer .container{
+    margin-bottom: 0%;
 }
