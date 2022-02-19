@@ -11,15 +11,17 @@ header{
 .navbar-brand img{
     width: 200px;
 }
- .sign-in-btn{
-    background-color: #21B573;
-    padding: 12px 28px;
-    color: white;
-    border-radius: 30px;
+
+#navbarNav a{
     width: 80px;
     text-align: center;
 }
-#navbarNavAltMarkup .sign-in-btn{
+ .sign-in-btn{
+    background-color: #21B573;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+#navbarNav .sign-in-btn{
     color: white;
 }
 .sign-in-btn:hover{
@@ -87,8 +89,8 @@ header{
     border-top: none;
 }
 .card-footer img{
-    width: 18px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 .card-footer p{
     color: #585859;
